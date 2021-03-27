@@ -6,6 +6,9 @@ import random
 def home(request):
     return render(request,"generator/Home.html")
 
+def aboutus(request):
+    return render(request,"generator/aboutus.html")
+
 def password(request):
 
     characters = list("abcdefghijklmnopuvwxyz")
